@@ -2,7 +2,7 @@
   "name" : "gitjob",
   "jobMode" : "SCRIPT",
   "description" : "",
-  "role" : "arn:aws:iam::471112830159:role/service-role/AWSGlueServiceRole",
+  "role" : "arn:aws:iam::471112830159:role/readonlyrole",
   "executionProperty" : {
     "maxConcurrentRuns" : 1
   },
