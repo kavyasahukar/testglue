@@ -1,6 +1,6 @@
 {
   "name" : "gitjob",
-  "jobMode" : "VISUAL",
+  "jobMode" : "SCRIPT",
   "description" : "",
   "role" : "arn:aws:iam::471112830159:role/service-role/AWSGlueServiceRole",
   "executionProperty" : {
@@ -8,7 +8,7 @@
   },
   "command" : {
     "name" : "glueetl",
-    "scriptLocation" : "s3://aws-glue-assets-471112830159-us-east-1/scripts/gitjob.py",
+    "scriptLocation" : "s3://gitscripts3/folder1/gitjob.py",
     "pythonVersion" : "3"
   },
   "defaultArguments" : {
